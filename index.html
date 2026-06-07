@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mock Math Exam - WIUT</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    .header {
+      background: #0066cc;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .main-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .exam-header {
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8f9fa;
+    }
+
+    .timer {
+      width: 80px;
+      height: 80px;
+      border: 6px solid #00cc66;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #0066cc;
+    }
+
+    .content-area {
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      background: #f8f9fa;
+      min-height: 700px;
+    }
+
+    .iframe-wrapper {
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      background: white;
+    }
+
+    iframe {
+      width: 550px;
+      height: 810px;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-left">
+      <div class="logo">WIUT</div>
+      <button style="padding:8px 16px; background:#fff; color:#0066cc; border:none; border-radius:4px;">Menu</button>
+      <button style="padding:8px 16px; background:#fff; color:#0066cc; border:none; border-radius:4px;">Exam Tips</button>
+    </div>
+    <div>0000000</div>
+  </div>
+
+  <div class="main-container">
+    <div class="exam-header">
+      <div>
+        <h2>Mock Math Exam Practice Section.</h2>
+        <p><strong>Total questions:</strong> 28 &nbsp;&nbsp; <strong>Total Mark:</strong> 100 &nbsp;&nbsp; <strong>Pass Mark:</strong> 28</p>
+      </div>
+      <button style="padding:10px 20px; background:#00cc66; color:white; border:none; border-radius:4px;">Start video invigilation</button>
+      <div class="timer">59:15</div>
+    </div>
+
+    <!-- Iframe joyi -->
+    <div class="content-area">
+      <div class="iframe-wrapper">
+        <iframe 
+          style="width: 550px; height: 810px; border: none;" 
+          src="https://www.testportal.com/test.html?t=2w5Fj8Zhmhb3" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
